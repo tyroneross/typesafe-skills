@@ -1,0 +1,22 @@
+{
+  "fingerprint": [
+    {
+      "len": 3899,
+      "mtime_ns": 1789766588942261023,
+      "name": "2026-09-18.jsonl",
+      "tail_hash": 16165509566818534898
+    }
+  ],
+  "segments": [
+    {
+      "count": 5,
+      "engagement": "2026-09-18",
+      "first_seq": 1,
+      "first_ts": "2026-09-18T21:22:51Z",
+      "last_seq": 5,
+      "last_ts": "2026-09-18T21:23:08Z",
+      "segment": "2026-09-18.jsonl"
+    }
+  ],
+  "updated_at": "2026-09-18T21:23:08Z"
+}

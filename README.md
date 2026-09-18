@@ -1,4 +1,29 @@
-# TypeSafe Agent Skills
+# TypeSafe Agent Skills (fork)
+
+Fork of [typesafe-ai/skills](https://github.com/typesafe-ai/skills), MIT licensed.
+Upstream's `typesafe-ai` skill is kept unchanged. This fork adds one skill:
+
+| Skill | What it adds |
+|---|---|
+| `typesafe-decisions` | The question-design rules stated as steps, worked templates for routing, reranking, passage gating, entity alignment, citation checking and multi-label tagging, a request validator that runs offline, an evaluation playbook, and measured results from two head-to-head evaluations against gpt-5.6-luna and gpt-oss-20b. Runs in Claude Code and Codex from one source directory. |
+
+Install it into both hosts:
+
+```bash
+skills/typesafe-decisions/scripts/install.sh          # symlinks into ~/.claude/skills and ~/.codex/skills
+skills/typesafe-decisions/scripts/install.sh --copy   # copies instead
+```
+
+Check a request before sending it:
+
+```bash
+python3 skills/typesafe-decisions/scripts/validate_request.py request.json
+```
+
+Sync upstream with `git fetch upstream && git merge upstream/main`.
+
+---
+
 
 Agent skills for building with [TypeSafe](https://typesafe.ai): typed decisions and probabilities from System One models.
 

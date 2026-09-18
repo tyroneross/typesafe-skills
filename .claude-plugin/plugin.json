@@ -1,12 +1,12 @@
 {
-  "name": "typesafe",
-  "version": "0.5.7",
-  "description": "Agent skills for building with the TypeSafe System One API.",
+  "name": "typesafe-fork",
+  "version": "0.1.0",
+  "description": "TypeSafe System One skills, forked and extended with a measured question-design skill for Claude Code and Codex.",
   "author": {
-    "name": "TypeSafe AI",
-    "url": "https://typesafe.ai"
+    "name": "Tyrone Ross",
+    "url": "https://github.com/tyroneross"
   },
   "homepage": "https://typesafe.ai",
-  "repository": "https://github.com/typesafe-ai/skills",
+  "repository": "https://github.com/tyroneross/typesafe-skills",
   "license": "MIT"
 }
